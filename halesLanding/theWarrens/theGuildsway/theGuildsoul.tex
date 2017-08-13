@@ -1,0 +1,108 @@
+% Preamble
+\documentclass[11pt]{article}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Gal}{\text{Gal}}
+\newcommand{\script}[1]{\mathscr{#1}}
+\newcommand{\partialby}[2]{\frac{\partial{#1}}{\partial{#2}}}
+\newcommand{\partialbytwo}[2]{\frac{\partial^2{#1}}{\partial{#2}^2}}
+\newcommand{\partialbyoneone}[3]{\frac{\partial^2{#1}}{\partial{#2} \partial{#3}}}
+\newcommand{\mtx}[4] {\left[\begin{matrix} #1 & #2 \\ #3 & #4  \end{matrix}\right]}
+\newcommand{\cmtx}[2]{\left[\begin{array}{c} #1 \\ #2 \end{array} \right]}
+\newcommand{\rmtx}[2]{\left[\begin{array}{cc} #1 & #2 \end{array} \right]}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\|#1\|}
+\newcommand{\lang}{\langle}
+\newcommand{\rang}{\rangle}
+\newcommand{\abrack}[1]{\lang #1 \rang}
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\braket}[2]{\langle #1 | #2 \rangle}
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+\usepackage{amsmath, amsthm, amsfonts, amstext, amscd, amssymb, amsthm, fullpage, mathrsfs, color, verse, nopageno, tipa}
+\usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\DeclareMathOperator{\tr}{Tr}
+\newcommand*{\threeemdash}{\rule[0.5ex]{3em}{0.55pt}}
+\newcommand*{\xdash}[1][3em]{\rule[0.5ex]{#1}{0.55pt}}
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+% Theorem Styles
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+% Definition Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\usepackage[parfill]{parskip}
+\newtheorem*{prop}{Proposition}
+
+\begin{document}
+
+% Heading
+	\title{The Guildsoul}
+	\date{\vspace{-24pt}}
+	\author{Gabe Foster}
+	\maketitle
+
+\section{The Guildsoul}
+
+\begin{description}
+
+\item[Hooks:] 
+
+\begin{itemize}
+
+\item{On nights of heavy cloud cover or a blank moon, a Guildhouse appears within the Guildsway. It has no doors and no windows, and no trace of it exists come the dawn.}
+
+\end{itemize}
+
+\item[NPCs:]
+\begin{description}
+
+\item[None]
+
+\end{description}
+
+\item{Locations:}
+
+\begin{itemize}
+
+\item{The Guildsoul, a pocket plane}
+
+\end{itemize}
+
+\item{Description:}
+
+To enter the Guildsoul is simple: be a member of a guild, and be true to that cause.  The interior of the Soul is a long guildhall, fires ablaze.  The soul accommodates however many people seek to enter it, making it and ideal refuge in times of war.  More interesting is the magic bound at the center of the Guildsoul. Just beyond the threshold of the Guildsoul there lies a single verse in Celestial:
+
+\texttt{
+In time of need / when light is low / \\
+When goodly cinders / cease to glow / \\
+A fire burns / within these halls / \\
+The city's gears / grind at my call / \\
+}
+
+The great hearth at the center of the hall contains a continual flame, which creates no heat. When dispelled, the back of the hearth opens, and shows the way forward.  We'll wing it from there.
+
+\end{description}
+
+\end{document}
