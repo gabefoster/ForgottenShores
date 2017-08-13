@@ -1,0 +1,118 @@
+% Preamble
+\documentclass[11pt]{article}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Gal}{\text{Gal}}
+\newcommand{\script}[1]{\mathscr{#1}}
+\newcommand{\partialby}[2]{\frac{\partial{#1}}{\partial{#2}}}
+\newcommand{\partialbytwo}[2]{\frac{\partial^2{#1}}{\partial{#2}^2}}
+\newcommand{\partialbyoneone}[3]{\frac{\partial^2{#1}}{\partial{#2} \partial{#3}}}
+\newcommand{\mtx}[4] {\left[\begin{matrix} #1 & #2 \\ #3 & #4  \end{matrix}\right]}
+\newcommand{\cmtx}[2]{\left[\begin{array}{c} #1 \\ #2 \end{array} \right]}
+\newcommand{\rmtx}[2]{\left[\begin{array}{cc} #1 & #2 \end{array} \right]}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\|#1\|}
+\newcommand{\lang}{\langle}
+\newcommand{\rang}{\rangle}
+\newcommand{\abrack}[1]{\lang #1 \rang}
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\braket}[2]{\langle #1 | #2 \rangle}
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+\usepackage{amsmath, amsthm, amsfonts, amstext, amscd, amssymb, amsthm, fullpage, mathrsfs, color, verse, nopageno, tipa}
+\usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\DeclareMathOperator{\tr}{Tr}
+\newcommand*{\threeemdash}{\rule[0.5ex]{3em}{0.55pt}}
+\newcommand*{\xdash}[1][3em]{\rule[0.5ex]{#1}{0.55pt}}
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+% Theorem Styles
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+% Definition Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\usepackage[parfill]{parskip}
+\newtheorem*{prop}{Proposition}
+
+\begin{document}
+
+% Heading
+	\title{}
+	\date{\vspace{-24pt}}
+	\author{Gabe Foster}
+	\maketitle
+
+\section{Knowledge of a Fount}
+
+\begin{description}
+
+\item[Hooks:] 
+
+\begin{itemize}
+
+\item{Someone enters the sewers, asks about sanitation, etc.}
+
+\end{itemize}
+
+\item[NPCs:]
+\begin{description}
+
+\item[Glass Guardsman 1]
+
+\item[Glass Guardsman 2]
+
+\end{description}
+
+\item[Monsters:]
+\begin{description}
+
+\item[Level 1+: Kobold Nest]
+
+\item[Level 2+: Band of Kuo-Toa]
+
+\item[Level 4+: Sahuagin Priestesses]
+
+\item[Level 7+: Gelatinous Cubes]
+
+\end{description}
+
+\item{Locations:}
+
+\begin{itemize}
+
+\item{Sewers beneath Hale's Landing}
+
+\item{Everflowing Fountain}
+
+\end{itemize}
+
+\end{description}
+
+\begin{description}
+
+\item[The Fountain] Hale's Landing's sewers are maintained by a number of \it{heavily} enchanted fountains which drive waste through the piping.  The fountains are guarded because of the value of their enchantment. In particular, in times of drought, many would seek to transfer the enchantment on the fountains.
+
+\end{description}
+
+\end{document}
