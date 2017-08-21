@@ -1,0 +1,95 @@
+% Preamble
+\documentclass[11pt]{article}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Gal}{\text{Gal}}
+\newcommand{\script}[1]{\mathscr{#1}}
+\newcommand{\partialby}[2]{\frac{\partial{#1}}{\partial{#2}}}
+\newcommand{\partialbytwo}[2]{\frac{\partial^2{#1}}{\partial{#2}^2}}
+\newcommand{\partialbyoneone}[3]{\frac{\partial^2{#1}}{\partial{#2} \partial{#3}}}
+\newcommand{\mtx}[4] {\left[\begin{matrix} #1 & #2 \\ #3 & #4  \end{matrix}\right]}
+\newcommand{\cmtx}[2]{\left[\begin{array}{c} #1 \\ #2 \end{array} \right]}
+\newcommand{\rmtx}[2]{\left[\begin{array}{cc} #1 & #2 \end{array} \right]}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\|#1\|}
+\newcommand{\lang}{\langle}
+\newcommand{\rang}{\rangle}
+\newcommand{\abrack}[1]{\lang #1 \rang}
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\braket}[2]{\langle #1 | #2 \rangle}
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+\usepackage{amsmath, amsthm, amsfonts, amstext, amscd, amssymb, amsthm, fullpage, mathrsfs, color, verse, nopageno, tipa}
+\usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\DeclareMathOperator{\tr}{Tr}
+\newcommand*{\threeemdash}{\rule[0.5ex]{3em}{0.55pt}}
+\newcommand*{\xdash}[1][3em]{\rule[0.5ex]{#1}{0.55pt}}
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+% Theorem Styles
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+% Definition Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\usepackage[parfill]{parskip}
+\newtheorem*{prop}{Proposition}
+
+\begin{document}
+
+% Heading
+	\title{Shy Sur'atak}
+	\date{\vspace{-24pt}}
+	\author{Gabe Foster}
+	\maketitle
+
+\section{Shy Sur'atak}
+
+\begin{description}
+
+\item[Hooks:] 
+
+\begin{itemize}
+
+\item{A crowd is gathered around the Cornerstone of Southguilds-- rich and poor alike-- to watch Sur'atak perform.}
+
+\end{itemize}
+
+\item[NPCs:]
+\begin{description}
+
+\item[Shy Sur'atak:]  Sur'atak, or Sur as he prefers to go by, is a thin Catfolk, blind in one eye and covered head to toe in light gold tatoos. He performs soothsaying and slight of hand. Most of what he does is deception-- the soothsaying consists only of vague statements, and the ``magic'' is simplistic as well-- the portion of the cornerstone which lies beneath the ground evokes a powerful spell of dispel magic, and Sur will use this to vanish conjured gold coins, and to aid in his variant of the cups and balls.  Beneath the surface, however, Sur is a member of Whispers and an information broker. More interestingly, the time he has spent within the Sothguilds Cornerstone and the magic he has observed dispelled-- artifacts of truly formidable power-- have convinced him that the old walls of the city house more than meets the eye.
+
+\end{description}
+
+\item{Locations:}
+
+\begin{itemize}
+
+\item{Scalpers' Lane, Southguilds:} This section of scalpers' lane is less populated than most.  Far from the hustle and bustle of the Billows and within the section of the city which abuts Hale's hill, the Southguilds section of Scalpers' lane functions mostly as a cultural hub in the city.  Ethnic markets, highlighting the desert fare of the Catfolk, the spicy meals preferred by dragonkin, and gnomish delicacies such as glumpudding (a creamy concoction somewhere in-between mousse and oatmeal). This section of the lane also houses an unusual concentration of Whispers agents, who find the relative anonymity and proximity to the Guildsway convenient.
+
+\end{itemize}
+
+\end{description}
+
+\end{document}
